@@ -221,15 +221,173 @@
     <div class="slides">
         <!-- Слайды с изображениями -->
         <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=true" alt="Фотография 1"></div>
-        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true" alt="Фотография 2"></div>
-        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true" alt="Фотография 3"></div>
+    
+  <script>
+    // Слайдер
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slides img');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
 
+    function showSlide(index) {
+      if (index >= slides.length) {
+        slideIndex = 0;
+      } else if (index < 0) {
+        slideIndex = slides.length - 1;
+      } else {
+        slideIndex = index;
+      }
+      const offset = -slideIndex * 100;
+      document.querySelector('.slides').style.transform = translateX(${offset}%);
+    }
+
+    prevButton.addEventListener('click', () => showSlide(slideIndex - 1));
+    nextButton.addEventListener('click', () => showSlide(slideIndex + 1));
+
+    showSlide(slideIndex);
+  </script>
+
+</body>
+</html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <style>
+        .slider {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .navigation-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .prev, .next {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+
+
+    <!-- Кнопки для переключения слайдов -->
+    <div class="navigation-buttons">
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+    </div>
+    
  <!-- Слайдер с фотографиями -->
   <div class="slider">
     <div class="slides">
         <!-- Слайды с изображениями -->
         <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true" alt="Фотография 2"></div>
+    
+  <script>
+    // Слайдер
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slides img');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
 
+    function showSlide(index) {
+      if (index >= slides.length) {
+        slideIndex = 0;
+      } else if (index < 0) {
+        slideIndex = slides.length - 1;
+      } else {
+        slideIndex = index;
+      }
+      const offset = -slideIndex * 100;
+      document.querySelector('.slides').style.transform = translateX(${offset}%);
+    }
+
+    prevButton.addEventListener('click', () => showSlide(slideIndex - 1));
+    nextButton.addEventListener('click', () => showSlide(slideIndex + 1));
+
+    showSlide(slideIndex);
+  </script>
+
+</body>
+</html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <style>
+        .slider {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .navigation-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .prev, .next {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+
+
+    <!-- Кнопки для переключения слайдов -->
+    <div class="navigation-buttons">
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+    </div>
+    
         <!-- Слайдер с фотографиями -->
   <div class="slider">
     <div class="slides">
