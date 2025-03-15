@@ -305,15 +305,14 @@
             border: none;
         }
     </style>
-</head>
-<body>
+
 
     <!-- Кнопки для переключения слайдов -->
     <div class="navigation-buttons">
         <button class="prev">‹</button>
         <button class="next">›</button>
     </div>
-</div>
+
 
 <script>
     let currentIndex = 
