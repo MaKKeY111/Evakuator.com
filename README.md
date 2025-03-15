@@ -224,12 +224,18 @@
         <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true" alt="Фотография 2"></div>
         <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true" alt="Фотография 3"></div>
 
+ <!-- Слайдер с фотографиями -->
+  <div class="slider">
+    <div class="slides">
+        <!-- Слайды с изображениями -->
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273888.jpg?raw=true" alt="Фотография 2"></div>
 
-
-    <!-- Кнопки слайдера -->
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-
+        <!-- Слайдер с фотографиями -->
+  <div class="slider">
+    <div class="slides">
+        <!-- Слайды с изображениями -->
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273889.jpg?raw=true" alt="Фотография 3"></div>
+  
   <script>
     // Слайдер
     let slideIndex = 0;
