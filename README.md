@@ -372,9 +372,7 @@
 </head>
 <body>
   <div class="phone-number">
-    <a href="tel:+7 705 131 13 38">+7 705 131 13 38</a>
-  <div class="phone-number">
-    <a href="tel:+7 707 359 88 28">+7 707 359 88 28</a> 
+    <a href="tel:+7 705 131 13 38">+7 705 131 13 38</a> / <a href="tel:+7 707 359 88 28">+7 707 359 88 28</a> 
   </div>
 </body>
 </html>
