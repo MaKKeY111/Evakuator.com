@@ -140,6 +140,7 @@
 <body>
   <div class="phone-number">
     <a href="tel:+7 705 131 13 38">+7 705 131 13 38</a>
+    <a href="tel:+7 707 359 88 28">+7 707 359 88 28</a> 
   </div>
 </body>
 </html>
@@ -205,7 +206,8 @@
   <div class="content">
     <h1>Услуги эвакуатора</h1>
     <p>Быстрая и надежная помощь на дороге</p>
-    <p class="phone">Звоните: <a href="tel:+7 705 131 13 38" style="color: yellow; text-decoration: none;">+7 705 131 13 38</a></p>
+    <p class="phone">Звоните: <a href="tel:+7 705 131 13 38 " style="color: yellow; text-decoration: none;">+7 705 131 13 38</a></p>
+    <p class="phone">Звоните: <a href="tel:+7 707 359 88 28 " style="color: yellow; text-decoration: none;">+7 707 359 88 28</a></p>
   </div>
 </body>
 </html>
