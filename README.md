@@ -227,7 +227,7 @@
   <div class="slider">
     <div class="slides">
         <!-- Слайды с изображениями -->
-        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=truehttps://github.com/MaKKeY111/Evakuator.com/blob/main/img/5382222689592273888.jpg?raw=true" alt="Фотография 1"></div>
+        <div class="slide"><img src="https://github.com/MaKKeY111/-/blob/MaKKeY111-patch-14/img/5382222689592273887.jpg?raw=true" alt="Фотография 1"></div>
         <!-- Слайды с изображениями -->
         <div class="slide"><img src="https://github.com/MaKKeY111/Evakuator.com/blob/main/img/5382222689592273888.jpg?raw=true" alt="Фотография 1"></div>
   <script>
