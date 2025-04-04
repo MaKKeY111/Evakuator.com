@@ -233,10 +233,6 @@
 
 
 
-.
-
-
-
 # Evakuator.com 
 Эвакуатор рядом
 <html lang="ru">
